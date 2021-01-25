@@ -1,0 +1,35 @@
+#profile {
+    .padding-div {
+        padding: 60px 10px;
+    }
+    .avtar {
+        img {
+            cursor: pointer;
+            width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+        .file-input {
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+    .sideNav {
+        .list-group-item {
+            cursor: pointer;
+            &:hover {
+                a {
+                    color: #CA1C35;
+                }
+            }
+        }
+
+        .list-group-item.active {
+            background-color: #CA1C35;
+            border: 1px solid #CA1C35;
+        }
+    }
+    .form-div {
+        padding: 20px;
+    }
+}

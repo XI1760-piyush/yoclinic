@@ -1,0 +1,49 @@
+footer {
+    padding: 60px 0;
+    padding-bottom: 0px;
+    border-top: 1px solid #CA1C35 ;
+    .logo {
+        max-width: 100%;
+    }
+    h5 {
+        color: #CA1C35 ;
+    }
+    .contact-list {
+        dd {
+            color: #000 ;
+                a {
+                color: #000 ;
+                text-decoration: none;
+            }
+        }
+    }
+    .main-links {
+        list-style-type: none;
+        padding: 0;
+        li a {
+            color: #000;
+            text-decoration: none;
+            &:hover {
+                color: #CA1C35;
+            }
+        }
+    }
+    .red-background {
+        background-color: #CA1C35;
+    }
+    .social {
+        font-size: 30px;
+        margin: 10px auto;
+        li {
+            a {
+                margin: 0px 10px;
+                color:#fff;
+            }
+        }
+    }
+    .brand {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+

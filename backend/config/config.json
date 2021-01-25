@@ -1,0 +1,15 @@
+{
+  "basepath" : "/home/piyush/Desktop/hapi",
+  "server":{
+    "host": "127.0.0.1",
+    "port" : 9090
+  },
+  "database": {
+          "host": "127.0.0.1",
+          "port": 3306,
+          "db": "yoclinic",
+          "username": "root",
+          "password": "",
+          "dbType": "mysql"
+  }
+}

@@ -1,0 +1,132 @@
+header {
+    .logo {
+        height: 55px;
+    }
+    .name-link {
+        text-transform: capitalize;
+        text-decoration: none;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: none;
+            color: #CA1C35;
+        }
+        color: #CA1C35;
+    }
+    .search-icon {
+        color: #CA1C35;
+    }
+    .main-link-nav {
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        &:hover {
+            a {
+                text-decoration: none;
+                color: #CA1C35;
+            }
+        }
+        &:active,
+        &:focus {
+            background-color: #fff;
+            a {
+                color: #CA1C35;
+            }
+        }
+    }
+    .dropdown-menu {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                transition: all 0.3s;
+                font-size: 20px;
+                margin: auto 10px;
+                &:hover {
+                    color: #CA1C35;
+                }
+            }
+        }
+    }
+    border-bottom: 1px solid #CA1C35;
+
+    
+}
+.login-box {
+    .login-btn {
+        background-color: #CA1C35;
+        color: #fff;
+        height: 45px;
+    }
+
+    .forgot-password-link {
+        color: #CA1C35;
+    }
+
+    .register-link {
+        margin-top: 20px;
+        a {
+            text-decoration: none;
+            &:hover {
+                color: #CA1C35;
+            }
+        }
+    }
+}
+
+.search-card {
+    background: rgba(103, 37, 43, 0.2);
+    height: 100%;
+    padding: 20px 5px;
+    .first-wrap {
+        width: 40%;
+        padding: 0px 10px;
+        input {
+            width: 100%;
+            &.form-control:focus {
+                box-shadow: #CA1C35;
+            }
+        }
+    }
+
+    .second-wrap {
+        width: 40%;
+        padding: 0px 10px;
+        input {
+            width: 100%;
+            &.form-control:focus {
+                box-shadow: #CA1C35;
+            }
+        }
+    }
+
+    .third-wrap {
+        width: 20%;
+        padding: 0px 10px;
+        .main-btn {
+            width: 100%;
+            &:hover {
+                background-color: #fff;
+                border: 1px solid #CA1C35;
+                color: #CA1C35;
+            }
+        }
+    }
+}
+.user-type-icon-wrapper {
+    margin: 60px auto;
+}
+.user-type-icon {
+    cursor: pointer;
+    &.selected {
+        color:#CA1C35
+    }
+}
